@@ -1,6 +1,7 @@
 # UsefulCommands
 
 Git
+
 Sync all tags:
 
 git fetch --prune origin "+refs/tags/*:refs/tags/*"
@@ -18,10 +19,13 @@ git log sometimes doesn't show revert commits, i.e. it shows 2 less commits the 
 
 
 Android
+
 Command to symbolise debug addresses (for osx)
 
 /Users/eugene/Downloads/android-ndk-r16b/tom-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-addr2line -C -f -e /Applications/Unity/PlaybackEngines/AndroidPlayer/Variations/mono/Development/Symbols/armeabi-v7a/libunity.sym.so
+
 Mac
+
 Command to temporarily increase open file limits
 
 ulimit -n 2048
